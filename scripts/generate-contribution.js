@@ -132,12 +132,12 @@ async function generateContributionSVG() {
 </svg>
 `;
 
-  fs.mkdirSync("contribution", { recursive: true });
+fs.mkdirSync("Contribution", { recursive: true });
 
-  fs.writeFileSync(
-    "contribution/contribution.svg",
-    svg.trim()
-  );
+fs.writeFileSync(
+  "Contribution/contribution.svg",
+  svg.trim()
+);
 
   console.log("✅ contribution/contribution.svg generated successfully!");
 }
