@@ -1,0 +1,12 @@
+{
+  "name": "builtbysahil-github-contribution",
+  "version": "1.0.0",
+  "description": "Custom GitHub contribution visualization for BuiltBySahil",
+  "main": "scripts/generate-contribution.js",
+  "scripts": {
+    "generate": "node scripts/generate-contribution.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
