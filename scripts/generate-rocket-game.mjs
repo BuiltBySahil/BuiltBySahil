@@ -17,8 +17,8 @@ const CELL = 11; // px size of each day cell
 const GAP = 4; // px gap between cells
 const MARGIN = 20; // px outer margin
 const ROCKET_LANE = 46; // px space below the grid for the rocket to fly in
-const HIT_STEP_MS = 260; // time between each cell being destroyed
-const END_PAUSE_MS = 2200; // pause once the board is fully cleared
+const HIT_STEP_MS = 1800; // time between each cell being destroyed
+const END_PAUSE_MS = 4000; // pause once the board is fully cleared
 const FLASH_MS = 180; // how long the muzzle-flash dot stays visible
 
 const COLORS = {
