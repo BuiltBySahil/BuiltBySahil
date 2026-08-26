@@ -23,9 +23,9 @@ const FLASH_MS = 180; // how long the muzzle-flash dot stays visible
 
 const COLORS = {
   bg: "#0d1117",
-  empty: "#f2f2f2", // "no contribution" cell (white, per your video)
-  levels: ["#f2f2f2", "#9be9a8", "#40c463", "#30a14e", "#216e39"], // 0..4
-  destroyed: "#0d1117", // cell colour once the rocket clears it (= bg, "gone")
+  empty: "#161b22",
+  levels: ["#161b22", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+  destroyed: "#0d1117",
   rocketBody: "#3b82f6",
   rocketBelly: "#f0f0f0",
   rocketFlame: "#f59e0b",
