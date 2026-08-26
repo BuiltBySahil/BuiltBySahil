@@ -134,15 +134,38 @@ async function generateContributionSVG() {
 
 fs.mkdirSync("Contribution", { recursive: true });
 
+// Save the contribution SVG
 fs.writeFileSync(
   "Contribution/contribution.svg",
   svg.trim()
 );
 
-  console.log("✅ contribution/contribution.svg generated successfully!");
-}
+// Prepare contribution data for the rocket game
+const contributionData = [];
 
-generateContributionSVG().catch((error) => {
-  console.error("❌ Error:", error);
-  process.exit(1);
+weeks.forEach((week) => {
+  week.forEach((day) => {
+    contributionData.push({
+      date: day.date,
+      count: Number(day.count || 0),
+      level: Number(day.intensity || 0)
+    });
+  });
 });
+
+// Save contribution data for the game
+fs.writeFileSync(
+  "Contribution/contributions.json",
+  JSON.stringify(
+    {
+      username: USERNAME,
+      total: total,
+      contributions: contributionData
+    },
+    null,
+    2
+  )
+);
+
+console.log("✅ contribution.svg generated successfully!");
+console.log("✅ contributions.json generated successfully!");
