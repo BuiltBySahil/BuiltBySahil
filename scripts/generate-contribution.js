@@ -169,3 +169,9 @@ fs.writeFileSync(
 
 console.log("✅ contribution.svg generated successfully!");
 console.log("✅ contributions.json generated successfully!");
+}
+
+generateContributionSVG().catch((error) => {
+  console.error("❌ Error:", error);
+  process.exit(1);
+});
