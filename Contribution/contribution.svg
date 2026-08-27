@@ -3333,11 +3333,42 @@
           fill="#39d353"
         />
       
+        <rect
+          x="966"
+          y="117"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
 
   
           <circle
             cx="919"
             cy="52"
+            r="9"
+            fill="none"
+            stroke="#39d353"
+            stroke-width="2"
+            opacity="0.9">
+
+            <animate
+              attributeName="r"
+              values="8;12;8"
+              dur="2s"
+              repeatCount="indefinite" />
+
+            <animate
+              attributeName="opacity"
+              values="0.9;0.2;0.9"
+              dur="2s"
+              repeatCount="indefinite" />
+          </circle>
+        
+          <circle
+            cx="973"
+            cy="106"
             r="9"
             fill="none"
             stroke="#39d353"
@@ -3364,7 +3395,7 @@
     fill="#8b949e"
     font-family="Arial, sans-serif"
     font-size="14">
-    22 contributions
+    30 contributions
   </text>
 
 </svg>
