@@ -431,6 +431,135 @@
     </circle>
 
   
+    <rect
+      x="755"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#216e39">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#216e39;#0d1117"
+        keyTimes="0;0.000000"/>
+    </rect>
+  
+    <rect
+      x="800"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#216e39">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#216e39;#0d1117"
+        keyTimes="0;0.097826"/>
+    </rect>
+  
+    <rect
+      x="740"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#9be9a8">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#9be9a8;#0d1117"
+        keyTimes="0;0.195652"/>
+    </rect>
+  
+    <rect
+      x="755"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#9be9a8">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#9be9a8;#0d1117"
+        keyTimes="0;0.293478"/>
+    </rect>
+  
+    <rect
+      x="755"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#9be9a8">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#9be9a8;#0d1117"
+        keyTimes="0;0.391304"/>
+    </rect>
+  
+    <rect
+      x="800"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#9be9a8">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#9be9a8;#0d1117"
+        keyTimes="0;0.489130"/>
+    </rect>
+  
+    <rect
+      x="575"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#9be9a8">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#9be9a8;#0d1117"
+        keyTimes="0;0.586957"/>
+    </rect>
+  
+    <rect
+      x="755"
+      y="159"
+      width="11"
+      height="8"
+      rx="1"
+      fill="#9be9a8">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="18.40s"
+        repeatCount="indefinite"
+        values="#9be9a8;#0d1117"
+        keyTimes="0;0.684783"/>
+    </rect>
+  
+  
   <g id="rocket">
     <animateTransform attributeName="transform" type="translate" additive="sum"
       calcMode="linear" dur="18.40s" repeatCount="indefinite"
