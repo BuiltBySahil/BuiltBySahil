@@ -19,7 +19,9 @@ const MARGIN = 20; // px outer margin
 const ROCKET_LANE = 46; // px space below the grid for the rocket to fly in
 const HIT_STEP_MS = 1800; // time between each cell being destroyed
 const END_PAUSE_MS = 4000; // pause once the board is fully cleared
-const FLASH_MS = 180; // how long the muzzle-flash dot stays visible
+const FLASH_MS = 180;// how long the muzzle-flash dot stays visible
+const PROGRESS_H = 8;
+const PROGRESS_GAP = 2;
 
 const COLORS = {
   bg: "#0d1117",
@@ -125,6 +127,33 @@ export function buildSVG(weeks) {
   const dur = (totalMs / 1000).toFixed(2) + "s";
 
   const frac = (ms) => (ms / totalMs).toFixed(6);
+  // ----- contribution progress bar -----
+const progressY = MARGIN + gridH + ROCKET_LANE - PROGRESS_H;
+
+let progressRects = "";
+
+targets.forEach((c, i) => {
+  const x = c.x;
+  const progressFrac = frac(i * HIT_STEP_MS);
+
+  progressRects += `
+    <rect
+      x="${x}"
+      y="${progressY}"
+      width="${CELL}"
+      height="${PROGRESS_H}"
+      rx="1"
+      fill="${COLORS.levels[c.level]}">
+      <animate
+        attributeName="fill"
+        calcMode="discrete"
+        dur="${dur}"
+        repeatCount="indefinite"
+        values="${COLORS.levels[c.level]};${COLORS.destroyed}"
+        keyTimes="0;${progressFrac}"/>
+    </rect>
+  `;
+});
 
   // ----- static (non-target) cells -----
   let cellRects = "";
@@ -179,15 +208,15 @@ export function buildSVG(weeks) {
     </g>
   </g>`;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
   <rect width="${width}" height="${height}" fill="${COLORS.bg}"/>
   ${cellRects}
   ${targetRects}
   ${flashes}
+  ${progressRects}
   ${rocketSVG}
 </svg>`;
 }
-
 // ---------- 3. Entry point ----------
 async function main() {
   const login = process.env.GITHUB_LOGIN;
