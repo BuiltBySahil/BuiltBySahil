@@ -116,9 +116,9 @@ export function buildSVG(weeks) {
 
   // Order of destruction: highest contribution count first.
   // Ties broken by date so the sweep still looks intentional.
-  const targets = cells
-    .filter((c) => c.count > 0)
-    .sort((a, b) => b.count - a.count || a.date.localeCompare(b.date));
+const targets = cells
+  .filter((c) => c.count > 0)
+  .sort((a, b) => a.count - b.count || a.date.localeCompare(b.date));
 
   const rocketY = MARGIN + gridH + ROCKET_LANE / 2;
 
@@ -127,34 +127,43 @@ export function buildSVG(weeks) {
   const dur = (totalMs / 1000).toFixed(2) + "s";
 
   const frac = (ms) => (ms / totalMs).toFixed(6);
+
   // ----- contribution progress bar -----
 const progressY = MARGIN + gridH + ROCKET_LANE - PROGRESS_H;
+
+const progressWidth = gridW;
+const progressStartX = MARGIN;
 
 let progressRects = "";
 
 targets.forEach((c, i) => {
-  const x = c.x;
-  const progressFrac = frac(i * HIT_STEP_MS);
+  const progressFrac = frac((i + 1) * HIT_STEP_MS);
+
+  const x =
+    progressStartX +
+    (i / targets.length) * progressWidth;
+
+  const w = progressWidth / targets.length;
 
   progressRects += `
     <rect
       x="${x}"
       y="${progressY}"
-      width="${CELL}"
+      width="${w}"
       height="${PROGRESS_H}"
       rx="1"
-      fill="${COLORS.levels[c.level]}">
+      fill="${COLORS.levels[c.level]}"
+      opacity="0">
+
       <animate
-        attributeName="fill"
-        calcMode="discrete"
+        attributeName="opacity"
+        values="0;1"
+        keyTimes="0;${progressFrac}"
         dur="${dur}"
-        repeatCount="indefinite"
-        values="${COLORS.levels[c.level]};${COLORS.destroyed}"
-        keyTimes="0;${progressFrac}"/>
+        repeatCount="indefinite"/>
     </rect>
   `;
 });
-
   // ----- static (non-target) cells -----
   let cellRects = "";
   for (const c of cells) {
