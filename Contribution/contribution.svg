@@ -2331,7 +2331,7 @@
           width="14"
           height="14"
           rx="3"
-          fill="#161b22"
+          fill="#0e4429"
         />
       
         <rect
@@ -2394,20 +2394,20 @@
           width="14"
           height="14"
           rx="3"
-          fill="#006d32"
-        />
-      
-        <rect
-          x="696"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
           fill="#161b22"
         />
       
         <rect
           x="696"
+          y="135"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="696"
           y="153"
           width="14"
           height="14"
@@ -3039,96 +3039,6 @@
         <rect
           x="876"
           y="153"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="45"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="63"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="81"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="99"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="117"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="894"
-          y="153"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#39d353"
-        />
-      
-        <rect
-          x="912"
-          y="45"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#39d353"
-        />
-      
-        <rect
-          x="912"
-          y="63"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="912"
-          y="81"
           width="14"
           height="14"
           rx="3"
@@ -3136,12 +3046,102 @@
         />
       
         <rect
+          x="894"
+          y="45"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#39d353"
+        />
+      
+        <rect
+          x="894"
+          y="63"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="894"
+          y="81"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#0e4429"
+        />
+      
+        <rect
+          x="894"
+          y="99"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#006d32"
+        />
+      
+        <rect
+          x="894"
+          y="117"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#006d32"
+        />
+      
+        <rect
+          x="894"
+          y="135"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="894"
+          y="153"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="912"
+          y="45"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="912"
+          y="63"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="912"
+          y="81"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
           x="912"
           y="99"
           width="14"
           height="14"
           rx="3"
-          fill="#39d353"
+          fill="#161b22"
         />
       
         <rect
@@ -3150,7 +3150,7 @@
           width="14"
           height="14"
           rx="3"
-          fill="#39d353"
+          fill="#161b22"
         />
       
         <rect
@@ -3258,7 +3258,7 @@
           width="14"
           height="14"
           rx="3"
-          fill="#161b22"
+          fill="#006d32"
         />
       
         <rect
@@ -3267,7 +3267,7 @@
           width="14"
           height="14"
           rx="3"
-          fill="#161b22"
+          fill="#39d353"
         />
       
         <rect
@@ -3294,66 +3294,12 @@
           width="14"
           height="14"
           rx="3"
-          fill="#161b22"
+          fill="#39d353"
         />
       
         <rect
           x="966"
           y="45"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="63"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="81"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#39d353"
-        />
-      
-        <rect
-          x="966"
-          y="99"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#39d353"
-        />
-      
-        <rect
-          x="966"
-          y="117"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="153"
           width="14"
           height="14"
           rx="3"
@@ -3363,7 +3309,7 @@
 
   
           <circle
-            cx="919"
+            cx="901"
             cy="52"
             r="9"
             fill="none"
@@ -3385,8 +3331,30 @@
           </circle>
         
           <circle
-            cx="973"
+            cx="955"
             cy="106"
+            r="9"
+            fill="none"
+            stroke="#39d353"
+            stroke-width="2"
+            opacity="0.9">
+
+            <animate
+              attributeName="r"
+              values="8;12;8"
+              dur="2s"
+              repeatCount="indefinite" />
+
+            <animate
+              attributeName="opacity"
+              values="0.9;0.2;0.9"
+              dur="2s"
+              repeatCount="indefinite" />
+          </circle>
+        
+          <circle
+            cx="955"
+            cy="160"
             r="9"
             fill="none"
             stroke="#39d353"
@@ -3413,7 +3381,7 @@
     fill="#8b949e"
     font-family="Arial, sans-serif"
     font-size="14">
-    30 contributions
+    35 contributions
   </text>
 
 </svg>
