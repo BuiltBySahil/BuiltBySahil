@@ -1827,7 +1827,7 @@
           width="14"
           height="14"
           rx="3"
-          fill="#161b22"
+          fill="#0e4429"
         />
       
         <rect
@@ -1890,20 +1890,20 @@
           width="14"
           height="14"
           rx="3"
-          fill="#0e4429"
-        />
-      
-        <rect
-          x="552"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
           fill="#161b22"
         />
       
         <rect
           x="552"
+          y="135"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="552"
           y="153"
           width="14"
           height="14"
@@ -2534,69 +2534,6 @@
       
         <rect
           x="732"
-          y="153"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
-          y="45"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
-          y="63"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
-          y="81"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
-          y="99"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
-          y="117"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="750"
           y="153"
           width="14"
           height="14"
@@ -2605,7 +2542,7 @@
         />
       
         <rect
-          x="768"
+          x="750"
           y="45"
           width="14"
           height="14"
@@ -2614,7 +2551,7 @@
         />
       
         <rect
-          x="768"
+          x="750"
           y="63"
           width="14"
           height="14"
@@ -2623,7 +2560,7 @@
         />
       
         <rect
-          x="768"
+          x="750"
           y="81"
           width="14"
           height="14"
@@ -2632,7 +2569,7 @@
         />
       
         <rect
-          x="768"
+          x="750"
           y="99"
           width="14"
           height="14"
@@ -2641,12 +2578,75 @@
         />
       
         <rect
-          x="768"
+          x="750"
           y="117"
           width="14"
           height="14"
           rx="3"
           fill="#006d32"
+        />
+      
+        <rect
+          x="750"
+          y="135"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="750"
+          y="153"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="768"
+          y="45"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="768"
+          y="63"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="768"
+          y="81"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="768"
+          y="99"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="768"
+          y="117"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
         />
       
         <rect
@@ -2754,74 +2754,11 @@
           width="14"
           height="14"
           rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="804"
-          y="99"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="804"
-          y="117"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="804"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="804"
-          y="153"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="822"
-          y="45"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="822"
-          y="63"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="822"
-          y="81"
-          width="14"
-          height="14"
-          rx="3"
           fill="#006d32"
         />
       
         <rect
-          x="822"
+          x="804"
           y="99"
           width="14"
           height="14"
@@ -2830,7 +2767,7 @@
         />
       
         <rect
-          x="822"
+          x="804"
           y="117"
           width="14"
           height="14"
@@ -2839,7 +2776,7 @@
         />
       
         <rect
-          x="822"
+          x="804"
           y="135"
           width="14"
           height="14"
@@ -2848,7 +2785,7 @@
         />
       
         <rect
-          x="822"
+          x="804"
           y="153"
           width="14"
           height="14"
@@ -2857,6 +2794,69 @@
         />
       
         <rect
+          x="822"
+          y="45"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="822"
+          y="63"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="822"
+          y="81"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="822"
+          y="99"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="822"
+          y="117"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="822"
+          y="135"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
+          x="822"
+          y="153"
+          width="14"
+          height="14"
+          rx="3"
+          fill="#161b22"
+        />
+      
+        <rect
           x="840"
           y="45"
           width="14"
@@ -3300,60 +3300,6 @@
         <rect
           x="966"
           y="45"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="63"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="81"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="99"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="117"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="135"
-          width="14"
-          height="14"
-          rx="3"
-          fill="#161b22"
-        />
-      
-        <rect
-          x="966"
-          y="153"
           width="14"
           height="14"
           rx="3"
@@ -3363,7 +3309,7 @@
 
   
           <circle
-            cx="775"
+            cx="757"
             cy="52"
             r="9"
             fill="none"
@@ -3385,7 +3331,7 @@
           </circle>
         
           <circle
-            cx="829"
+            cx="811"
             cy="106"
             r="9"
             fill="none"
@@ -3407,7 +3353,7 @@
           </circle>
         
           <circle
-            cx="829"
+            cx="811"
             cy="160"
             r="9"
             fill="none"
